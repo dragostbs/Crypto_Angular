@@ -12,7 +12,7 @@ Web Application using Cryptocurrency API
 
 ## Demo
 
-[Demo Live 🎟](https://dragostbs.github.io/Crypto_Project/First.html)
+[Demo Live 🎟](https://chipper-mooncake-beada7.netlify.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Angular.com]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
