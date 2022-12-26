@@ -1,4 +1,4 @@
-# Crypto Application 💲
+# Crypto Application 🎟
 
 Web Application using Cryptocurrency API
 
@@ -12,7 +12,7 @@ Web Application using Cryptocurrency API
 
 ## Demo
 
-[Demo Live 💲](https://dragostbs.github.io/Crypto_Project/First.html)
+[Demo Live 🎟](https://dragostbs.github.io/Crypto_Project/First.html)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Angular.com]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
