@@ -1,0 +1,153 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  place-items: center;
+  align-items: center;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+@media screen and (max-width: 1415px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    place-items: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    place-items: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    place-items: center;
+    align-items: center;
+  }
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  width: 20rem;
+  height: 10rem;
+}
+
+.coin__price,
+.last__updated {
+  font-size: x-small;
+  align-items: center;
+}
+
+.modal__box-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  width: 25rem;
+}
+
+.last__updated {
+  margin-top: 4rem;
+}
+
+.total__volume {
+  margin-bottom: 3.5rem;
+}
+
+.market__cap {
+  margin-bottom: 0.5rem;
+}
+
+.last__updated {
+  margin-top: 4rem;
+}
+
+.green__color {
+  background-color: #deffed;
+  color: #47e59e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.red__color {
+  background-color: #ffdede;
+  color: #e54747;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card {
+  --bs-card-border-width: 0.1px;
+  --bs-card-border-color: none !important;
+  --bs-card-border-radius: 1rem;
+  box-shadow: 0 4px 15px 0 rgba(117, 125, 134, 0.5);
+  transition: 0.1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.coin__btn {
+  width: 75px;
+
+  & .btn {
+    margin-top: 18px;
+  }
+}
+
+.btn {
+  --bs-btn-padding-x: 0.6rem;
+  --bs-btn-padding-y: 0.35rem;
+  --bs-btn-font-size: 0.7rem;
+  --bs-btn-font-weight: 600;
+  --bs-btn-line-height: 1.85;
+}
+
+.modal__info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  transition: all 0.5s;
+}
+
+.modal__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  border-radius: 1rem;
+  width: 30rem;
+  height: 15rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red__btn {
+  margin-bottom: 12rem;
+  margin-right: 0.5rem;
+}
